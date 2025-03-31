@@ -1,20 +1,20 @@
 {
-    "description": "Arcad Demo",
-    "version": "0.0.1",
-    "includePath": [
-        "PEPCO_SRC/QPROTOSRC"
-    ],
-    "repository": "git@github.com:NicolaeCh/testpepco.git",
-    "objlib": "&verlibpepco",
-    "curlib": "*CRTDFT",
-    "extensions": {
-        "arcad": {
-            "code": "PEPCO",
-            "libraryPrefix": "PEP",
-            "iasp": "*SYSBAS",
-            "validated": true
-        }
-    },
-    "buildCommand": "elias compile {branch}",
-    "compileCommand": "elias compile {branch} -f {filename}"
+  "description": "Arcad Demo",
+  "version": "0.0.1",
+  "includePath": [
+    "PEPCO_SRC/QPROTOSRC"
+  ],
+  "repository": "git@github.com:NicolaeCh/testpepco.git",
+  "objlib": "&verlibpepco",
+  "curlib": "&CURLIB",
+  "extensions": {
+    "arcad": {
+      "code": "PEPCO",
+      "libraryPrefix": "PEP",
+      "iasp": "*SYSBAS",
+      "validated": true
+    }
+  },
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}"
 }
