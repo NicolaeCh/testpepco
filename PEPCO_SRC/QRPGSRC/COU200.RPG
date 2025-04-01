@@ -10,6 +10,7 @@
      I                                    B 378 3790LRRN
       *
      C           LOOP      TAG
+      * 
      C           PANEL     CASEQ1         PNL01
      C           PANEL     CASEQ2         PNL02
      C                     ENDCS
