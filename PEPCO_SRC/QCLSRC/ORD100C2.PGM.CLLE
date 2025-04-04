@@ -1,6 +1,6 @@
       /*%METADATA                                                     */
       /* %TEXT Create new order without parameter                     */
-      /*%EMETADATA                                                    */
+      /*%EMETADATA              PRUEBA                                      */
 
              DLTF       FILE(QTEMP/DETORD)
              MONMSG     MSGID(CPF0000)
