@@ -1,5 +1,5 @@
       /*%METADATA                                                     */
-      /* %TEXT Create new order with parameter                        */
+      /* %TEXT Create new order with parameter   TEST                 */
       /*%EMETADATA                                                    */
              PGM        PARM(&CUID)
              DCL        VAR(&CUID) TYPE(*DEC) LEN(5 0)
